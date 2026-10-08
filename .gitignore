@@ -4,3 +4,6 @@ Thumbs.db
 screenshot-*.png
 .idea/
 .vscode/
+
+.wrangler/
+node_modules/
