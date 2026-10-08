@@ -865,6 +865,20 @@ p {
   border: 1px solid rgba(26, 78, 248, 0.15);
 }
 
+.tag-review {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background-color: rgba(245, 158, 11, 0.1);
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+
 .portfolio-preview {
   background: var(--bg-subtle);
   border: 1px solid var(--border-subtle);
