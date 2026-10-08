@@ -537,6 +537,7 @@ p {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
   font-size: 0.8125rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -858,11 +859,14 @@ p {
   align-items: center;
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: var(--radius-pill);
   background-color: rgba(26, 78, 248, 0.08);
   color: var(--color-primary);
   border: 1px solid rgba(26, 78, 248, 0.15);
+  white-space: nowrap;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .tag-review {
@@ -871,11 +875,14 @@ p {
   gap: 4px;
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: var(--radius-pill);
   background-color: rgba(245, 158, 11, 0.1);
   color: #b45309;
   border: 1px solid rgba(245, 158, 11, 0.25);
+  white-space: nowrap;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 
