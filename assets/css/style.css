@@ -783,12 +783,46 @@ p {
   flex-shrink: 0;
 }
 
+.portfolio-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.store-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: var(--color-slate-800);
+  background-color: var(--color-slate-50);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-pill);
+  transition: all var(--transition-fast);
+}
+
+.store-btn svg {
+  color: #01875f;
+  flex-shrink: 0;
+}
+
+.store-btn:hover {
+  background-color: var(--color-white);
+  border-color: #01875f;
+  color: #01875f;
+  box-shadow: var(--shadow-xs);
+  transform: translateY(-1px);
+}
+
 .portfolio-preview {
   background: var(--bg-subtle);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   overflow: hidden;
-  margin-top: auto;
   text-align: center;
   padding: 16px;
 }
