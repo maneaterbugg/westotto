@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Westotto Corporate Website — Design System & Stylesheet
+   WestOtto Corporate Website — Design System & Stylesheet
    Domain: westotto.com
    Version: 1.0.0 (Production)
    ========================================================================== */
@@ -883,7 +883,7 @@ p {
 }
 
 /* --------------------------------------------------------------------------
-   About Westotto Section
+   About WestOtto Section
    -------------------------------------------------------------------------- */
 .about-section {
   background: linear-gradient(180deg, var(--bg-page) 0%, #f4f7fc 100%);

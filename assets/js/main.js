@@ -1,5 +1,5 @@
 /**
- * Westotto Corporate Website — Client Interactivity
+ * WestOtto Corporate Website — Client Interactivity
  * Domain: westotto.com
  */
 
