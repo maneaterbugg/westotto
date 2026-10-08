@@ -847,6 +847,25 @@ p {
   }
 }
 
+.store-btn-review {
+  cursor: default;
+  color: #b45309;
+  background-color: #fffbeb;
+  border-color: #fde68a;
+}
+
+.store-btn-review svg {
+  color: #d97706;
+}
+
+.store-btn-review:hover {
+  background-color: #fffbeb;
+  border-color: #fde68a;
+  color: #b45309;
+  transform: none;
+  box-shadow: none;
+}
+
 .store-btn-upcoming {
   cursor: default;
   color: var(--color-slate-500);
