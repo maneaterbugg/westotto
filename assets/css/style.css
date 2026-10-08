@@ -533,17 +533,29 @@ p {
   min-width: 260px;
 }
 
-.product-eyebrow {
+.product-eyebrow,
+.product-meta-row {
   display: flex;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.product-eyebrow {
   font-size: 0.8125rem;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--color-primary);
   letter-spacing: 0.05em;
-  margin-bottom: 6px;
+}
+
+.eyebrow-label {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  letter-spacing: 0.05em;
 }
 
 .product-title {
