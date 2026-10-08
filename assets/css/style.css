@@ -818,6 +818,53 @@ p {
   transform: translateY(-1px);
 }
 
+.store-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .store-badge-group {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 12px;
+  }
+}
+
+.store-btn-upcoming {
+  cursor: default;
+  color: var(--color-slate-500);
+  background-color: var(--color-slate-100);
+  border-color: var(--border-subtle);
+}
+
+.store-btn-upcoming:hover {
+  background-color: var(--color-slate-100);
+  border-color: var(--border-subtle);
+  color: var(--color-slate-500);
+  transform: none;
+  box-shadow: none;
+}
+
+.store-btn-upcoming svg {
+  color: var(--color-slate-700);
+}
+
+.tag-ios {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  background-color: rgba(26, 78, 248, 0.08);
+  color: var(--color-primary);
+  border: 1px solid rgba(26, 78, 248, 0.15);
+}
+
 .portfolio-preview {
   background: var(--bg-subtle);
   border: 1px solid var(--border-subtle);
